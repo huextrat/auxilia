@@ -1,5 +1,66 @@
 # Changelog
 
+## [0.5.23](https://github.com/huextrat/auxilia/compare/web-v0.5.22...web-v0.5.23) (2026-07-23)
+
+
+### Features
+
+* add color field to agents with pastel palette ([6b977ee](https://github.com/huextrat/auxilia/commit/6b977ee03410419c5853af8786dbcefdfcf1c31c))
+* add search bar to Add Subagent dialog ([#111](https://github.com/huextrat/auxilia/issues/111)) ([5e7b60e](https://github.com/huextrat/auxilia/commit/5e7b60e5d306ce7fb0a70be755605a101206f775))
+* add subagent bindings with Deep Agents integration ([#63](https://github.com/huextrat/auxilia/issues/63)) ([c01eeea](https://github.com/huextrat/auxilia/commit/c01eeeac5bab6d59ec43d4ac26a14a59a8ad693c))
+* agent thread history page + thread source ([#94](https://github.com/huextrat/auxilia/issues/94)) ([e9faa17](https://github.com/huextrat/auxilia/commit/e9faa17ab8da4104b661bf976e7b97144bdfbb82))
+* **agents:** add Archived tab with restore and permanent delete ([#130](https://github.com/huextrat/auxilia/issues/130)) ([f6bed78](https://github.com/huextrat/auxilia/commit/f6bed781c46120fa90cdabff86a51c485598aecf))
+* **agents:** display agent owner on card and dialog ([#181](https://github.com/huextrat/auxilia/issues/181)) ([b2222cd](https://github.com/huextrat/auxilia/commit/b2222cdc075ec2c2f3ee6de7455c76ac04c4370f))
+* **agents:** explicit save with read/edit agent page ([#215](https://github.com/huextrat/auxilia/issues/215)) ([375e259](https://github.com/huextrat/auxilia/commit/375e25939668661aea8e3f69e11bafc050d68444))
+* **agents:** improve agents list navigation and tabs ([#133](https://github.com/huextrat/auxilia/issues/133)) ([05e9ed3](https://github.com/huextrat/auxilia/commit/05e9ed30d37a3138e716ce1f8ffca48cefde4b44))
+* allow archive agents ([#61](https://github.com/huextrat/auxilia/issues/61)) ([d6a04dc](https://github.com/huextrat/auxilia/commit/d6a04dc8dd8a4bd39ea988426d8bc8161423e8c7))
+* dynamic default model selection  ([#1](https://github.com/huextrat/auxilia/issues/1)) ([75941a8](https://github.com/huextrat/auxilia/commit/75941a8c9e072c617ba12bd1442206f786e5ac60))
+* enforce auth on agent routes and update related tests ([#92](https://github.com/huextrat/auxilia/issues/92)) ([65f3658](https://github.com/huextrat/auxilia/commit/65f3658fc70856247fb6adfc387ca30cb1c9886c))
+* **mcp:** connection testing, credential management, R2 icon CDN, and new official servers ([#224](https://github.com/huextrat/auxilia/issues/224)) ([c7e48e8](https://github.com/huextrat/auxilia/commit/c7e48e8254263858b3a9654c17b61f5e9b2ebb2f))
+* **model-providers:** add GLM 5.2 via OpenRouter with selectable rea… ([#197](https://github.com/huextrat/auxilia/issues/197)) ([6ec9138](https://github.com/huextrat/auxilia/commit/6ec9138598f00eb9ccb3cbf589f5f5382ae670f9))
+* **model:** add muse from meta ([#211](https://github.com/huextrat/auxilia/issues/211)) ([0771ba6](https://github.com/huextrat/auxilia/commit/0771ba6edc055420ef45e29f4e47fdb13d5a50bc))
+* **models:** workspace default model ([#238](https://github.com/huextrat/auxilia/issues/238)) ([c15ad05](https://github.com/huextrat/auxilia/commit/c15ad05e361f2165c458956d050f1c5e54f25626))
+* **models:** workspace model management with external whitelist ([#231](https://github.com/huextrat/auxilia/issues/231)) ([83be434](https://github.com/huextrat/auxilia/commit/83be434069d43438e1e5a5c0db22021567fd9d48))
+* organize agents list with tags ([#176](https://github.com/huextrat/auxilia/issues/176)) ([648e6ea](https://github.com/huextrat/auxilia/commit/648e6ea4fb4ee19fd4ac89db3df71bfcfa7a77c6))
+* per-agent sandbox with code execution UI ([#68](https://github.com/huextrat/auxilia/issues/68)) ([ed007a5](https://github.com/huextrat/auxilia/commit/ed007a56e0281184330265875413ae74c9267ac9))
+* **runs:** move run records to Postgres + thread last-run status ([#194](https://github.com/huextrat/auxilia/issues/194)) ([fae7fd0](https://github.com/huextrat/auxilia/commit/fae7fd0696be338b4a83a41f3004360dcc7da56f))
+* **runs:** react to run status changes in sidebar and run history ([#196](https://github.com/huextrat/auxilia/issues/196)) ([023a2e9](https://github.com/huextrat/auxilia/commit/023a2e92f77cae6bc0a13ddc843ffca94fe2d09f))
+* teams for agent access ([#173](https://github.com/huextrat/auxilia/issues/173)) ([30552b7](https://github.com/huextrat/auxilia/commit/30552b79e49e170c88d2418bc9a1b77fe2b75b17))
+* **threads:** rename threads from the sidebar ([#156](https://github.com/huextrat/auxilia/issues/156)) ([9f60eef](https://github.com/huextrat/auxilia/commit/9f60eef660d6faf67ce98d734d01b6171e50f5ea))
+* **triggers:** add "Run now" action to trigger card menu ([#189](https://github.com/huextrat/auxilia/issues/189)) ([076e102](https://github.com/huextrat/auxilia/commit/076e102e62665ce7b06e0571a7a1f8fc7afbdb18))
+* **triggers:** add border to trigger thread icon in sidebar ([#187](https://github.com/huextrat/auxilia/issues/187)) ([f829420](https://github.com/huextrat/auxilia/commit/f829420e6c721de7a6f005f8f9ba0ca0eb4319b1))
+* **triggers:** link trigger name in chat header to trigger detail ([#188](https://github.com/huextrat/auxilia/issues/188)) ([b57c683](https://github.com/huextrat/auxilia/commit/b57c6838fadaa6b8a223a6b28a552cd9105b4998))
+* **triggers:** redesign schedule time field with chevron picker ([#186](https://github.com/huextrat/auxilia/issues/186)) ([9f87279](https://github.com/huextrat/auxilia/commit/9f87279310eaf1f1c6e164158a7fd39604f69245))
+* **triggers:** scheduled agent runs ([#182](https://github.com/huextrat/auxilia/issues/182)) ([d987da9](https://github.com/huextrat/auxilia/commit/d987da917f48fa9c8f63809de5903f261d3eca12))
+* **web:** durable run wiring — run-id capture, server Stop, reattach ([#153](https://github.com/huextrat/auxilia/issues/153)) ([4a1cf3a](https://github.com/huextrat/auxilia/commit/4a1cf3ac7173b7c563c2593436998c4567fae6dd))
+* **web:** show subagent avatars in agent card footer ([#171](https://github.com/huextrat/auxilia/issues/171)) ([8e50338](https://github.com/huextrat/auxilia/commit/8e503380e9c1a91c2cdc827047cdb1f093636b00))
+* **web:** Studio shell redesign — floating sidebar, page specs & smooth collapse ([#119](https://github.com/huextrat/auxilia/issues/119)) ([301c3ff](https://github.com/huextrat/auxilia/commit/301c3ffdaa0681c6b20f19634c47ec71a667eb88))
+
+
+### Bug Fixes
+
+* address Cubic review comments from [#176](https://github.com/huextrat/auxilia/issues/176) ([#178](https://github.com/huextrat/auxilia/issues/178)) ([efc35d6](https://github.com/huextrat/auxilia/commit/efc35d69eea28ac3a1f8dca0650010b6bcd06500))
+* **agents:** fail background runs fast on unauthorized MCP OAuth ([#208](https://github.com/huextrat/auxilia/issues/208)) ([e2e8a6a](https://github.com/huextrat/auxilia/commit/e2e8a6a223f31f3dd5d8b01d3536b5b2287b11d5))
+* **agents:** seed MCP tool map on connect so explicit save persists all servers ([#222](https://github.com/huextrat/auxilia/issues/222)) ([aeaf515](https://github.com/huextrat/auxilia/commit/aeaf51544f36159b10a68e7bc842d2299b6f2d5e))
+* conflicting tailwind imports ([13c8f66](https://github.com/huextrat/auxilia/commit/13c8f66636b3e03dda812f684744f6eed9d9b5f1))
+* **mcp:** render Metabase interactive visualize_query MCP App ([#128](https://github.com/huextrat/auxilia/issues/128)) ([2bbc28c](https://github.com/huextrat/auxilia/commit/2bbc28c8ac9febaf291f7d35e52227df49347ed2))
+* pass structuredContent from artifact to AppRenderer for MCP app widgets ([e7374a6](https://github.com/huextrat/auxilia/commit/e7374a6e31359539cbf64a19917e7685fe94c3d4))
+* portal agent dialog to body to fix positioning inside animated cards ([1233943](https://github.com/huextrat/auxilia/commit/123394342129dcbc3139b11f682fba60d0e870bf))
+* proper dark mode styling for code blocks ([#212](https://github.com/huextrat/auxilia/issues/212)) ([c213d77](https://github.com/huextrat/auxilia/commit/c213d77eb927851f330e45da20f2c202fa3853de))
+* remove client setup for DCR official MCP servers ([92aa1d2](https://github.com/huextrat/auxilia/commit/92aa1d28e494e199ff9435e8e33b4576add9ba36))
+* scope HITL decisions to hanging tool calls only ([#93](https://github.com/huextrat/auxilia/issues/93)) ([5675fec](https://github.com/huextrat/auxilia/commit/5675fececc2b3fd8f0aece8b591b5f9a365d9fae))
+* **slack:** de-duplicate HITL tool header; keep quote bar on multi-line args ([#165](https://github.com/huextrat/auxilia/issues/165)) ([b1500bf](https://github.com/huextrat/auxilia/commit/b1500bf870842ca8ef31c3b271cf94605a235d50))
+* **triggers:** show running state in trigger run history ([#209](https://github.com/huextrat/auxilia/issues/209)) ([83c114f](https://github.com/huextrat/auxilia/commit/83c114fed296d26311018fd98ae70f101ce011fc))
+* update pending invites UI without needing refresh ([#38](https://github.com/huextrat/auxilia/issues/38)) ([1a2bf7b](https://github.com/huextrat/auxilia/commit/1a2bf7b4c7add6d0f8370b72c01b4ee03dbcc692))
+* **web:** surface real tool error text; refactor(agents): collapse agent construction ([#144](https://github.com/huextrat/auxilia/issues/144)) ([e7fdc8e](https://github.com/huextrat/auxilia/commit/e7fdc8e0b82fcb0d52cf8b3c62bd02b4c5e0084e))
+
+
+### Code Refactoring
+
+* enforce CONVENTIONS.md naming across backend + frontend ([#100](https://github.com/huextrat/auxilia/issues/100)) ([f3af7c2](https://github.com/huextrat/auxilia/commit/f3af7c2159aa8fc83e47bc34e41f1a3367c9f00f))
+* rename binding association tables and simplify naming ([#67](https://github.com/huextrat/auxilia/issues/67)) ([dfab494](https://github.com/huextrat/auxilia/commit/dfab49435fd9fb8490263762224ba9b3875d2bac))
+* **triggers:** remove Draft badge from new trigger header ([#184](https://github.com/huextrat/auxilia/issues/184)) ([fd88991](https://github.com/huextrat/auxilia/commit/fd889913414fbc4def3fb49a677cc02557f5cf54))
+
 ## [0.5.22](https://github.com/keurcien/auxilia/compare/web-v0.5.21...web-v0.5.22) (2026-07-22)
 
 
